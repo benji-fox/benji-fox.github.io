@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Searchable Enforcement Guidelines</title>
+    <meta property="og:title" content="Searchable Enforcement Guidelines">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="searchcontainer">
+            <input type="search" class="search" placeholder="Search">
+            <p class="count"></p>
+        </div>
+        <div class="pad"></div>
+        <p>You can prefix your search with "~" to search with multiple individual search "terms" (a word, phrase, etc).</p>
+        <p>Separate each search term with a ";"</p>
+        <p>Prefix a search term with "#" to mark it as required.</p><br>
+        <p>Example: <i>"~shooting;gun"</i> will show all rules that contain the words "shooting" or "gun"</p>
+        <p><i>"~base location;one"</i> will show all rules that contain the phrase "base location" or the word "one"</p>
+        <p><i>"~#wilkers;balls"</i> will show all rules that contain the word "balls" <b><i>AND</i></b> the word "wilkers"</p><br>
+        <p>URL Parameters:</p><br>
+        <ul>
+            <li><i>?search=</i></li>
+            <li class="list-style-greater-than">Will fill the search box with whatever the parameter is set to.</li>
+            <li class="list-style-greater-than">This parameter is synced with the contents of the search box.</li>
+            <li class="list-style-greater-than">Examples:</li>
+            <li class="list-style-greater-than"><i>"?search=shooting%20your%20gun"</i> (some characters need to be <a href="https://www.urlencoder.org/" is="ext-link">URL encoded</a>)</li>
+            <li class="list-style-greater-than"><i>"?search=~shooting;gun"</i> (searching using the filtering explained above)</li>
+            <li class="list-no-style-type"></li>
+            <li><i>?rule=</i></li>
+            <li class="list-style-greater-than">Will jump to the provided rule "acronym" (A10, EMISC1, GLR2, etc)</li>
+            <li class="list-style-greater-than">Examples:</li>
+            <li class="list-style-greater-than"><i>"?rule=ekr1"</i></li>
+            <li class="list-style-greater-than"><i>"?rule=ger1"</i></li>
+            <li class="list-style-greater-than"><i>"?rule=a11"</i></li>
+        </ul><br>
+        <p>These URL parameters are mutually exclusive, which means you can only use one at a time.</p>
+        <p>This is <i><b>not</b></i> the official enforcement guidelines and may be outdated. You can see the most recent updates <a href="https://github.com/benji-en/benji-en.github.io/tree/main/public/enforcement" is="ext-link">here</a>.</p>
+        <p>You can see the official enforcement guidelines <a is="ext-link" href="https://forums.atomicnetworks.co/threads/darkrp-enforcement-guidelines.4007/">here</a>.</p><br><br>
+        <h1>Most recent changes:</h1>
+        <p>Update EMISC5 <a is="rule-link" rule="emisc5">(link)</a>, <a is="ext-link" href="https://github.com/benji-en/benji-en.github.io/commit/ce59f08f866a78a9b18c030d381ba629cd531552">(github)</a></p>
+        <p>Update GLR1 <a is="rule-link" rule="glr1">(link)</a>, <a is="ext-link" href="https://github.com/benji-en/benji-en.github.io/commit/2b475215cf2f949eb85db040e3188271bd2997a3">(github)</a></p>
+        <p>Update ERR9 <a is="rule-link" rule="err9">(link)</a>, <a is="ext-link" href="https://github.com/benji-en/benji-en.github.io/commit/8a336fc7fcc0100fcda60cbe7ee8c352e8fc3ae5">(github)</a></p>
+        <p>Updated D2 <a is="rule-link" rule="d2">(link)</a>, <a is="ext-link" href="https://github.com/benji-en/benji-en.github.io/commit/44e9eef591a43f5ac754b0318cc9e261a6c62ff5">(github)</a></p><br><br>
+        <div class="rulescontainer"></div>
+    </div>
+    <script src="./scripts/togglespoiler.js"></script>
+    <script src="./scripts/search.js" defer></script>
+    <script src="./scripts/rules.js"></script>
+    <script src="./scripts/generaterule.js"></script>
+    <script src="./scripts/customelements.js"></script>
+</body>
+
+</html>
