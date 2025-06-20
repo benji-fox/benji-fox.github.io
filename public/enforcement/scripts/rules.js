@@ -373,7 +373,7 @@ const rules_B = {
                 "<span class='color-red'>Make an SA ticket in the discord.</span>"
             ],
             examples: [
-                "Wilkers adverts \"JOIN <Insert Shitty Low Pop Server Here>\", <span class='color-red>you proceed to ban them for Advertising because they were blatantly leeching.</span>"
+                "Wilkers adverts \"JOIN &#60;Insert Shitty Low Pop Server Here&#62;\", <span class='color-red'>you proceed to ban them for Advertising because they were blatantly leeching.</span>"
             ]
         },
         {
