@@ -1914,7 +1914,8 @@ const rules_G = {
                     acronym: "GSW5",
                     rule: "All buttons used to open fading doored props must be put on toggle mode.",
                     whatitmeans: [
-                        "All buttons must be opened using toggle mode."
+                        "All buttons must be opened using toggle mode.",
+                        "You may not abuse opening/closing shooting windows to disable or prevent EMPs from working."
                     ],
                     whyitexists: [
                         "Raider/Defender Balance",
