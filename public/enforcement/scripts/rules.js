@@ -732,7 +732,7 @@ const rules_E = {
                     ],
                     examples: [
                         "Members of the Radioactive Gang (Players A, B, C, and D) all \"solo\" raid Player E's base in short succession. Player E makes a ticket, and <span class='color-dark-red'>you warn/punish all members (Players A, B, C, D) of Gang A for FailRP During Raid.</span>",
-                        "Player A kills Player B outside of their base and proceeds to raid the base. <span class='color-dark-red'>Player A did not advert raid before killing Player B. Since the player started the raid with a kill, you will warn and punish for</span> <span class='color-orange>FailRP During Raid (Class III).</span>"
+                        "Player A kills Player B outside of their base and proceeds to raid the base. <span class='color-dark-red'>Player A did not advert raid before killing Player B. Since the player started the raid with a kill, you will warn and punish for</span> <span class='color-orange'>FailRP During Raid (Class III).</span>"
                     ]
                 },
                 {
@@ -842,7 +842,7 @@ const rules_E = {
                     ],
                     properenforcement: [
                         "This rule is actively enforced.",
-                        "<span class='color-orange>FailRP During Raid (Class III)</span>"
+                        "<span class='color-orange'>FailRP During Raid (Class III)</span>"
                     ],
                     examples: [
                         "Player A begins a raid on Player B. After Player B notices that Player A has a double barrel, helium vape and heavy armor, they proceed to destroy all of their printers to keep Player A from getting to them. Player A kills Player B during the raid, and when Player A gets into the base, they notice all the printers are gone. Player A proceeds to make a ticket. <span class='color-red'>Since Player B destroyed the entities after the first signs of a raid began (advert, keypad crack, etc.) you warn/punish Player B for FailRP During Raid (Class III)</span>"
@@ -863,7 +863,7 @@ const rules_E = {
                         "<span class='color-orange'>FailRP During Raid</span>"
                     ],
                     examples: [
-                        "Player A raids Player B. After Player A takes advantage of a flaw in Player B's base and starts to shoot through a crack in their build. In the middle of the raid, Player A blocks off the crack to prevent Player B from shooting through the crack. <span class='color-red>Player B calls a ticket after the raid is over and you warn and punish Player A for FailRP During Raid (Class III)</span>"
+                        "Player A raids Player B. After Player A takes advantage of a flaw in Player B's base and starts to shoot through a crack in their build. In the middle of the raid, Player A blocks off the crack to prevent Player B from shooting through the crack. <span class='color-red'>Player B calls a ticket after the raid is over and you warn and punish Player A for FailRP During Raid (Class III)</span>"
                     ]
                 },
                 {
@@ -955,8 +955,8 @@ const rules_E = {
                         "<span class='color-yellow'>FailRP (Class II)</span>",
                     ],
                     examples: [
-                        "Player A kills Player B before the 10 second waiting period during a mug. Player B creates a ticket. <span class='color-green>Since Player A doesn't have a history of FailRP warns, you remind them of the mugging rules and do not warn/punish them.</span>",
-                        "Player A kills Player B before the 10 second waiting period during a mug. Player B creates a ticket. <span class='color-red>Since Player A has a history of FailRP warns, you warn/punish them for FailRP (Class II)</span>"
+                        "Player A kills Player B before the 10 second waiting period during a mug. Player B creates a ticket. <span class='color-green'>Since Player A doesn't have a history of FailRP warns, you remind them of the mugging rules and do not warn/punish them.</span>",
+                        "Player A kills Player B before the 10 second waiting period during a mug. Player B creates a ticket. <span class='color-red'>Since Player A has a history of FailRP warns, you warn/punish them for FailRP (Class II)</span>"
                     ]
                 },
                 {
@@ -1848,7 +1848,7 @@ const rules_G = {
                         "Raider/Defender Balance",
                     ],
                     properenforcement: [
-                        "(Actively Enforced) If reported during or after a raid - <span class='color-orange>FailRP During Raid (Class III)</span> - For all defenders that made use of the design to defend the base.",
+                        "(Actively Enforced) If reported during or after a raid - <span class='color-orange'>FailRP During Raid (Class III)</span> - For all defenders that made use of the design to defend the base.",
                         "If it's reported prior to a raid - let the defenders know that the signage needs to be updated."
                     ],
                     examples: [
@@ -2105,7 +2105,7 @@ const rules_G = {
                         "So the raiders know who is defending a base they are about to raid."
                     ],
                     properenforcement: [
-                        "(Actively Enforced) If reported during or after a raid - <span class='color-orange>FailRP During Raid (Class III)</span> - For all defenders that were not listed on the KOS sign.",
+                        "(Actively Enforced) If reported during or after a raid - <span class='color-orange'>FailRP During Raid (Class III)</span> - For all defenders that were not listed on the KOS sign.",
                         "If it's reported prior to a raid - let the defenders know that the signage needs to be updated."
                     ],
                     examples: [
