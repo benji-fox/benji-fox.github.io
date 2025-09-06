@@ -1595,13 +1595,12 @@ const rules_G = {
                 },
                 {
                     acronym: "GLR8",
-                    rule: "The use of props/entities in tunnels is not allowed.",
+                    rule: "You cannot fully block off the tunnels.",
                     whatitmeans: [
-                        "Building inside of tunnels is not allowed.",
-                        "This rule applies to the half tunnel by the Slums area of the map, as well as any tunnels that connect the top level and the sewers."
+                        "Building inside of the tunnels is allowed, but you must allow passage through the tunnel still.",
+                        "You cannot build or base in Spawn Tunnels."
                     ],
                     whyitexists: [
-                        "To keep clientside performance reasonable on AtomicRP 1",
                         "To not inhibit the movement of players. "
                     ],
                     properenforcement: [
