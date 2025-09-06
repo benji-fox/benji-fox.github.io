@@ -634,7 +634,7 @@ const rules_D = {
             ],
             properenforcement: [
                 "Before enforcing this rule, verbally note to the player that if they continue the behavior that there will be a punishment. (If they already have a record of the behavior, punish the player)",
-                "<span class='color-yellow'>FailkRP (Class II)</span>"
+                "<span class='color-yellow'>FailRP (Class II)</span>"
             ],
             examples: [
                 "Player A kills Player B during a mugging, Player B cannot come back to interact with Player A in any way for 5 minutes.",
